@@ -1,3 +1,45 @@
+body{
+    background-color:whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+
+}
+
+.header img {
+    width: 40px;
+    height: 30px;
+    background-color: aqua;
+  }
+
+.buttons{
+
+
+display: flex;
+gap: 100px;
+padding: 20px;
+}
+.buttons button{
+    font-size: 20px;
+    background-color: aquamarine;
+   border: 0cap;
+}
 .container.footer.popup{
     background-color: rgb(19, 19, 173);
+    color: aqua;
+    padding: auto;align-items: center;
+}
+.container.main.footer{
+    background-color: aquamarine; 
+    color: blue;
+    padding-top: 100px;
+    margin-top: 10px;
 }

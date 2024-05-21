@@ -1,0 +1,12 @@
+.board{
+    width: 800px;
+    height: 1000px;
+    align-items: center;
+    height: 400px;
+    background-color: brown;
+}
+.board.hole{
+    padding-left: 0px;
+    position: relative;
+    background-color:green;
+}
